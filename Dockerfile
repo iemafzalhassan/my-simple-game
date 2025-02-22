@@ -3,5 +3,5 @@ WORKDIR /app
 RUN pip install --no-cache-dir rich
 COPY app.py /app
 ENV DISPLAY=:0
-CMD ["python", "/app/app.py"]
-
+CMD ["python", "/app/app.py]
+Label "Afzal"
